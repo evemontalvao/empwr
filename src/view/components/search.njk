@@ -1,0 +1,6 @@
+{% macro search(placeholder, button, searchOptions) %}
+<section class="SearchBox {{ searchOptions }}">
+    <input type="text" id="search-box" name="search-box" class="SearchBox-input" placeholder="{{ placeholder }}">
+    <input type="submit" class="SearchBox-button" value="{{ button }}">
+</section>
+{% endmacro %}

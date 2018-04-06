@@ -1,0 +1,35 @@
+@import 'variables';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: $textFont;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    lost-center: 90%;
+}
+
+strong {
+    font-weight: 600;
+    color: $thirdColor;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        lost-center: 980px;
+    }
+}

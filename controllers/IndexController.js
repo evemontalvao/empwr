@@ -1,0 +1,9 @@
+const express = require('express');
+const app = express();
+const path = require('path');
+
+const handler = (req, res) => {
+  res.send('Oie')
+}
+
+module.exports = handler;

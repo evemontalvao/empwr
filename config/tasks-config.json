@@ -1,0 +1,17 @@
+{
+    "sources": {
+        "mainStyle": "src/styles/components/main.scss",
+        "styles": "src/styles/**/*.scss",
+        "scripts": "src/app/**/*.js",
+        "views": "src/view/templates/*.html",
+        "nunjucks": ["src/view/templates/*.njk", "!src/view/templates/layout.njk"],
+        "nunjucksWatch": ["src/view/**/*.njk"],
+        "imgs": "src/images/img/**/*"
+    },
+    "public": {
+        "styles": "public/css/",
+        "scripts": "public/js/",
+        "views": "public/view/",
+        "imgs": "public/assets/img"
+    }
+}

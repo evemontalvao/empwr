@@ -1,0 +1,9 @@
+{% import "components/searchOptions.njk" as searchOptions %}
+
+<header class="Header">
+    <div class="container">
+        <h1 class="Header-h1">empwr<strong>.</strong></h1>
+        <h2 class="Header-h2">Por mulheres. Para todo mundo.</h2>
+        {{ searchOptions.search('Um produto', 'Um serviço', 'Hey, posso te ajudar? <br> O que você está procurando?') }}
+    </div>
+</header>

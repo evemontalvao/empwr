@@ -1,0 +1,15 @@
+{% import "components/search.njk" as searchBox %}
+{% macro search(arg1, arg2, arg3) %}
+<section class="SearchOptions">
+    <label class="SearchOptions-label">{{ arg3|safe }}</label>
+    <div class="SearchOptions-wrapper">
+        <input type="radio" id="SearchOption-opt1" class="SearchOption" name="SearchOption" checked>
+        <label for="SearchOption-opt1" class="SearchOptions-option">{{ arg1 }}</label>
+    </div>
+    <div class="SearchOptions-wrapper">
+        <input type="radio" id="SearchOption-opt2" class="SearchOption" name="SearchOption">
+        <label for="SearchOption-opt2" class="SearchOptions-option">{{ arg2 }}</label>
+    </div>
+    {{ searchBox.search('Digite aqui...', 'Ir')}}
+</section>
+{% endmacro %}

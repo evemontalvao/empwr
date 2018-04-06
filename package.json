@@ -1,0 +1,52 @@
+{
+  "name": "empwr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Eve Montalvão",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --progress --config webpack.config.js"
+  },
+  "devDependencies": {
+    "autoprefixer": "^8.2.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-airbnb": "^2.4.0",
+    "babel-preset-env": "^1.6.1",
+    "browser-sync": "^2.23.6",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-import": "^2.10.0",
+    "friendly-errors-webpack-plugin": "^1.6.1",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-eslint": "^4.0.2",
+    "gulp-nunjucks": "^3.1.1",
+    "gulp-nunjucks-render": "^2.2.2",
+    "gulp-postcss": "^7.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.2.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^5.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.1.0",
+    "jest": "^22.4.3",
+    "jshint": "^2.9.5",
+    "lost": "^8.2.1",
+    "node-sass": "^4.8.3",
+    "nunjucks-html-loader": "^1.1.0",
+    "nunjucks-webpack-plugin": "^4.0.0",
+    "uglifyjs-webpack-plugin": "^1.2.4",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13",
+    "webpack-glob-folder-entries": "^1.0.0"
+  },
+  "dependencies": {
+    "mongoose": "^5.0.12",
+    "nunjucks": "^3.0.1",
+    "nunjucks-loader": "^3.0.0"
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "development": {
+        "domain": "http://localhost:2107",
+        "mongo": {
+            "username": "",
+            "password": "",
+            "server": "localhost",
+            "port": "27017",
+            "database": "empwr"
+        }
+    }
+}

@@ -1,0 +1,59 @@
+.SearchOptions {
+    width: 100%;
+    padding: 30px 0;
+    position: relative;
+}
+
+.SearchOptions input:checked ~ .SearchOption-label {
+    color: #000;
+    transform: translate3d(20px, 10px);
+}
+
+.SearchOptions-option {
+    width: 100%;
+    border-right: 1px solid #fff;
+    text-align: center;
+    font-family: $textFont;
+    color: #fff;
+    display: inline-block;
+    padding: 40px 0;
+}
+
+.SearchOption:last-child {
+    border-right: none;
+
+}
+
+.SearchOptions-wrapper {
+    width: 50%;
+    float: left;
+}
+
+.SearchOptions-label {
+    color: #fff;
+    text-align: center;
+    font-family: $textFont;
+    font-size: 14px;
+    margin-bottom: 30px;
+    display: inherit;
+    font-weight: 600;
+}
+
+.SearchOptions .SearchBox {
+    position: absolute;
+    width: 100%;
+    top: 55%;
+
+    & .SearchBox-input {
+        transform: scaleX(0)
+    }
+}
+
+.SearchOption {
+    position: absolute;
+    opacity: 0;
+}
+
+.SearchOption:checked ~ .SearchBox .SearchBox-input {
+    transform: scaleX(1)
+}

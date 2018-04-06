@@ -1,0 +1,21 @@
+.SearchBox {
+    width: 100%;
+    position: relative;
+}
+
+.SearchBox-input {
+    width: 100%;
+    padding: 10px;
+    font-size: $firstColor;
+    border: none;
+    border-radius: 20px;
+}
+
+.SearchBox-button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
